@@ -18,7 +18,7 @@ const FollowOn = () => {
           <FaLink size={20} />
         </a>
       </div>
-      <div className="flex gap-4 pt-3 font-semibold">created by love - shivam singh<FaHeart size={20} /></div>
+      <div className="flex gap-4 pt-3 font-semibold">created by love - Shivam Singh<FaHeart size={20} /></div>
     </div>
   );
 };
