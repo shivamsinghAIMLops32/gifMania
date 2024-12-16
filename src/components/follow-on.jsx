@@ -1,5 +1,5 @@
 import {FaInstagram, FaLink,FaGithub} from "react-icons/fa6";
-import { FaHome } from "react-icons/fa";
+import { FaHome,FaHeart } from "react-icons/fa";
 
 const FollowOn = () => {
   return (
@@ -18,6 +18,7 @@ const FollowOn = () => {
           <FaLink size={20} />
         </a>
       </div>
+      <div className="flex gap-4 pt-3 font-semibold">created by love - shivam singh<FaHeart size={20} /></div>
     </div>
   );
 };
